@@ -70,7 +70,7 @@ return (
       <FontAwesomeIcon className="header-hamburger-bars" icon={faBars} />
     </div>
     <div className="header-logo">
-      <span>ÆMALKI</span>
+      <span>ÆMALKI~</span>
     </div>
     <div
       className={
