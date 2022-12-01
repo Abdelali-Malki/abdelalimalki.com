@@ -7,9 +7,13 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Testimonial.css";
-import lady from "../../../src/img/Testimonial/lady.png";
-import mike from "../../../src/img/Testimonial/mike.png";
-import man from "../../../src/img/Testimonial/man.png";
+import lady from "../../../src/img/Testimonial/lady.jpg";
+import ehiz from "../../../src/img/Testimonial/ehiz.PNG";
+import lady3 from "../../../src/img/Testimonial/lady3.jpeg";
+import lady2 from "../../../src/img/Testimonial/lady2.png";
+import mike from "../../../src/img/Testimonial/mike.jpg";
+import mann from "../../../src/img/Testimonial/mann.jpg";
+import man from "../../../src/img/Testimonial/man.PNG";
 import shape from "../../../src/img/Testimonial/shape-bg.png";
 
 export default function Testimonial(props) {
@@ -122,6 +126,78 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
+                    <img src={lady2} alt="no internet connection"></img>
+                    <h5>Daisy Dominic</h5>
+                    <p>CEO InansGlobal</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
+                    <p>
+                      <i className="fa fa-quote-left" />
+                      It was nice hiring this guy for my e-commerce project.He
+                      delivered even more than i can imagine. I recommend him
+                      for you.
+                      <i className="fa fa-quote-right" />
+                    </p>
+                    <ul className="stars list-unstyled">
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star-half-alt" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="client-info">
+                    <img src={lady3} alt="no internet connection"></img>
+                    <h5>Daisy Dominic</h5>
+                    <p>CEO InansGlobal</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
+                    <p>
+                      <i className="fa fa-quote-left" />
+                      It was nice hiring this guy for my e-commerce project.He
+                      delivered even more than i can imagine. I recommend him
+                      for you.
+                      <i className="fa fa-quote-right" />
+                    </p>
+                    <ul className="stars list-unstyled">
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star-half-alt" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="client-info">
                     <img src={mike} alt="no internet connection"></img>
                     <h5>Mikel</h5>
                     <p>CEO MikeTech</p>
@@ -157,7 +233,7 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img src={lady} alt="no internet connection"></img>
+                    <img src={mann} alt="no internet connection"></img>
                     <h5>Daisy Dominic</h5>
                     <p>CEO InansGlobal</p>
                   </div>
@@ -171,6 +247,78 @@ export default function Testimonial(props) {
                       This guy is incredibly awesome, I hired him and when He
                       delivered, I honestly fell in love with the project. He is
                       indeed a great guy,
+                      <i className="fa fa-quote-right" />
+                    </p>
+                    <ul className="stars list-unstyled">
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star-half-alt" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="client-info">
+                    <img src={lady} alt="no internet connection"></img>
+                    <h5>Daisy Dominic</h5>
+                    <p>CEO InansGlobal</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
+                    <p>
+                      <i className="fa fa-quote-left" />
+                      It was nice hiring this guy for my e-commerce project.He
+                      delivered even more than i can imagine. I recommend him
+                      for you.
+                      <i className="fa fa-quote-right" />
+                    </p>
+                    <ul className="stars list-unstyled">
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star-half-alt" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="client-info">
+                    <img src={ehiz} alt="no internet connection"></img>
+                    <h5>Daisy Dominic</h5>
+                    <p>CEO InansGlobal</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
+                    <p>
+                      <i className="fa fa-quote-left" />
+                      It was nice hiring this guy for my e-commerce project.He
+                      delivered even more than i can imagine. I recommend him
+                      for you.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">

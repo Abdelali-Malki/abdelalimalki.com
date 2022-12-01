@@ -72,20 +72,20 @@ export default function ContactMe(props) {
           <h2 className="title">
             <Typical loop={Infinity} steps={["Get In Touch 📧", 1000]} />
           </h2>{" "}
-          <a href="https://web.facebook.com/?_rdc=1&_rdr">
+          <a href="https://www.facebook.com/abdelalimalki.ae/">
             <i className="fa fa-facebook-square" />
           </a>
-          <a href="#">
-            <i className="fa fa-google-plus-square" />
-          </a>
-          <a href="https://www.instagram.com/instructor_ehizeex/">
+          <a href="https://www.instagram.com/malki.dev/">
             <i className="fa fa-instagram" />
           </a>
-          <a href="https://www.youtube.com/channel/UCSSr5ZDFbilpZ592_ycoAwA">
-            <i className="fa fa-youtube-square" />
+          <a href="https://wa.link/xseaoq">
+            <i className="fa fa-whatsapp" />
           </a>
-          <a href="https://twitter.com/Ehiedu_baba">
-            <i className="fa fa-twitter" />
+          <a href="https://www.linkedin.com/in/abdelali-malki-2052b6257/">
+            <i className="fa fa-linkedin" />
+          </a>
+          <a href="https://github.com/Abdelali-Malki">
+            <i className="fa fa-github" />
           </a>
         </div>
         <div className="back-form">

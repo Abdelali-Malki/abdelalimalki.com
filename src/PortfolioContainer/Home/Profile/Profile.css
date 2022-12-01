@@ -63,6 +63,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 1s;
   }
   .profile-picture-background:hover {
     transform: scale(1.07);

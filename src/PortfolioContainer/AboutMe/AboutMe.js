@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
+import { TOTAL_SCREENS } from "../../utilities/commonUtils";
+import selectedScreen from "../PortfolioContainer"
 import "./AboutMe.css";
 
 export default function AboutMe(props) {
@@ -11,6 +13,14 @@ export default function AboutMe(props) {
   };
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
+    const getHeaderOptionsClasses = (index) => {
+      let classes = "header-option "
+      if (index < TOTAL_SCREENS.length - 1) classes += "header-option-seperator";
+      
+      if (selectedScreen === index) classes += " selected-header-option";
+      console.log(classes)
+      return classes;
+      };
 
   const SCREEN_CONSTSANTS = {
     description:
